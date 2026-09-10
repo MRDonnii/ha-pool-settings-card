@@ -1,4 +1,4 @@
-const VERSION = "0.1.1";
+const VERSION = "0.2.0";
 
 const NEVER_YEAR = 2000;
 
@@ -251,9 +251,8 @@ class HAPoolSettingsCard extends HTMLElement {
       .danger-btn ha-icon{--mdc-icon-size:20px;color:var(--danger);flex:0 0 auto}
       .danger-btn b{display:block;font-size:12.5px}
       .danger-btn small{display:block;margin-top:2px;font-size:10.5px;color:var(--secondary-text-color)}
-      .row-list{display:flex;flex-direction:column;gap:1px;border:1px solid var(--edge);border-radius:14px;overflow:hidden}
-      .row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 13px;background:var(--card-background-color)}
-      .row+.row{border-top:1px solid var(--edge)}
+      .row-list{display:flex;flex-direction:column;gap:8px}
+      .row{position:relative;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 13px;border:1px solid color-mix(in srgb,var(--accent) 16%,transparent);border-left:3px solid var(--accent);border-radius:12px;background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 6%,transparent),transparent 60%),var(--ha-card-background,var(--card-background-color));box-shadow:0 4px 12px rgba(0,0,0,.1)}
       .row.interactive{cursor:pointer}
       .row-label{font-size:12.5px;color:var(--primary-text-color);min-width:0;flex:1}
       .row-value{font-size:12px;font-weight:700;text-align:right;color:var(--primary-text-color)}
