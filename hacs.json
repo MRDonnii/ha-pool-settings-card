@@ -1,0 +1,6 @@
+{
+  "name": "HA Pool Settings Card",
+  "filename": "ha-pool-settings-card.js",
+  "content_in_root": true,
+  "render_readme": true
+}
