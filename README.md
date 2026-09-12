@@ -1,5 +1,12 @@
 # HA Pool Settings Card
 
+## Neutral mobile preview
+
+![Neutral mobile preview of ha-pool-settings-card](docs/preview.png)
+
+> Rendered at 390 px mobile width with fictional Home Assistant entities and values. No private dashboard, person, address, camera, or sensor data is included.
+
+
 A companion settings card for [ha-pool-card](https://github.com/MRDonnii/ha-pool-card)
 that replaces a long, repetitive stack of native `entities` cards with one
 clean, tabbed interface.
